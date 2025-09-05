@@ -1,6 +1,6 @@
 from celery import shared_task # type: ignore
 from .utils import embed_text, text_cosine, location_similarity, behavioral_similarity
-from users.models import UserProfile
+from apps.users.models import UserProfile
 
 @shared_task
 def recompute_recommendations_for_user(user_id):

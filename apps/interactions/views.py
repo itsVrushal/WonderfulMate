@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from .models import Interaction, Friendship
-from users.models import UserProfile
+from apps.users.models import UserProfile
 
 
 class SendFriendRequest(APIView):

@@ -25,6 +25,8 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 ```
+username -> wonderfulmate_user 
+password -> strongpassword
 
 5. Start Redis (for Celery) and run Celery worker:
 

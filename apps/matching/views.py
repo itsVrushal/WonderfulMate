@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from .tasks import recompute_recommendations_for_user
-from users.models import UserProfile
+from apps.users.models import UserProfile
 
 
 class RecommendView(APIView):
